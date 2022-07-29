@@ -1,0 +1,36 @@
+/* Author = Ronak Baldha */
+/* GitHub Id = ronakbaldha23 */
+/* Language = JAVA */
+/* Address = Gujarat,INDIA */
+
+/******************************************************************************************************************************************/
+/***********Start****************/
+/***********Given two integers a and b, your task is to calculate and print the following four values:-
+a+b
+a-b
+a*b
+a/b
+****************/
+
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+    public static void main (String[] args) {
+                      // Your code here
+        Scanner sc= new Scanner(System.in);
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+
+    }
+}
+
+/******************************************************************************************************************************************/
+/***********End****************/
